@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "zs_vycistne.csv": {
+      "sha256": "342171be5c257e87e6d73c9e723548e84327bbd516d8cd5f764c65e2709987f4",
+      "size": 3492970
+    },
+    "SVPv5.csv": {
+      "sha256": "bb982dd5d8e341cc76849979f611be081fd2900a8eda49b6ea5216fe70e2cb8e",
+      "size": 2426243
+    }
+  },
+  "outputs": {
+    "materials.parquet": {
+      "rows": 4688,
+      "columns": [
+        "link",
+        "resource_title",
+        "description",
+        "subject",
+        "resource_type",
+        "_cycles",
+        "_standard_ids",
+        "_keyword_list",
+        "_search_text"
+      ],
+      "size": 811136
+    },
+    "standards.parquet": {
+      "rows": 1711,
+      "columns": [
+        "id",
+        "predmet",
+        "cyklus",
+        "typ",
+        "definicia",
+        "material_count"
+      ],
+      "size": 76449
+    }
+  },
+  "linked_standard_references": 78007,
+  "unique_linked_standards": 1711
+}
