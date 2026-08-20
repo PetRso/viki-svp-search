@@ -574,7 +574,7 @@ def main() -> None:
         row = candidate_lookup[standard_id]
         definition = shorten(row.get("definicia", ""), 125)
         return (
-            f"{definition} {standard_id}"
+            f"{definition} · {standard_id} "
             f"({row.get('material_count', 0)})"
         )
 
